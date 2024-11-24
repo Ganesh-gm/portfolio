@@ -1,0 +1,15 @@
+# Handle line endings automatically for different operating systems
+* text=auto
+
+# Ensure images and binaries are treated correctly
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.mp4 binary
+*.mov binary

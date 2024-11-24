@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Ganesh-gm/portfolio/static/css/main.635bcda4.css",
+    "main.js": "/Ganesh-gm/portfolio/static/js/main.879fa9cf.js",
+    "static/media/php.png": "/Ganesh-gm/portfolio/static/media/php.d50fe7fe3c6e5fc97ed1.png",
+    "static/media/zoho-Analytics-1024x1024.png": "/Ganesh-gm/portfolio/static/media/zoho-Analytics-1024x1024.b532fa2dd7465602508e.png",
+    "static/media/node.png": "/Ganesh-gm/portfolio/static/media/node.e71346fe0fec16ec5f6e.png",
+    "static/media/Creator.png": "/Ganesh-gm/portfolio/static/media/Creator.e9d342a763c04f539310.png",
+    "static/media/crm.png": "/Ganesh-gm/portfolio/static/media/crm.9ee26ca8a566698102cc.png",
+    "static/media/zoho-one-512.png": "/Ganesh-gm/portfolio/static/media/zoho-one-512.d1e92f640c790be1c40d.png",
+    "static/media/laravel.png": "/Ganesh-gm/portfolio/static/media/laravel.9deb7b8accaeb576c057.png",
+    "static/media/javascript.png": "/Ganesh-gm/portfolio/static/media/javascript.dafbcd7fb56fcfce553c.png",
+    "index.html": "/Ganesh-gm/portfolio/index.html",
+    "main.635bcda4.css.map": "/Ganesh-gm/portfolio/static/css/main.635bcda4.css.map",
+    "main.879fa9cf.js.map": "/Ganesh-gm/portfolio/static/js/main.879fa9cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.635bcda4.css",
+    "static/js/main.879fa9cf.js"
+  ]
+}
