@@ -1,0 +1,85 @@
+/* Navbar Container */
+.navbar1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #003554;
+    height: 5rem;
+    width: 100%;
+    padding: 1rem 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+/* Logo */
+.logo {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+/* Menu Toggle Button */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Menu Items (Desktop) */
+.menu {
+    display: flex;
+    gap: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-item {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    color: yellow;
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid yellow;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    .navbar1{
+        justify-content:flex-start
+    }
+    .menu {
+        flex-direction: column;
+        gap: 1rem;
+        position: absolute;
+        top: 5rem;
+        right: 0;
+        background-color: #003554;
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+    }
+
+    .menu.menu-open {
+        max-height: 20rem;
+    }
+
+    .menu-item {
+        padding: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+}

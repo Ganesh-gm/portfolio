@@ -1,0 +1,56 @@
+.carousel {
+    height: 600px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.carousel-container {
+    height: auto;
+    width: 90%; /* Adjusted to make it responsive */
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+    background-color: #1a1a1a; 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px; 
+    text-align: center; /* Centering the text content */
+}
+
+.slide {
+    display: block;
+    height: auto;
+    max-height: 150px; /* Adjusted to keep aspect ratio */
+    margin: 0 auto;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain; /* Ensures image fits within its container */
+}
+
+.carousel-content {
+    width: 100%;
+    max-width: 80%; /* Limit carousel width for better responsiveness */
+    margin: 0 auto; /* Center the carousel container */
+    padding: 0 15px; /* Add padding for responsiveness */
+}
+
+.carousel h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.carousel p {
+    font-size: 1em;
+    color: #cccccc;
+    margin-top: 10px;
+}

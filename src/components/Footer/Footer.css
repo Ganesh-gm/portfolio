@@ -1,0 +1,36 @@
+/* General footer styles */
+.footer {
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 16px;
+    color: #343a40;
+    /* background-color: #f8f9fa; */
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: #fff700;
+  }
+  
+  .footer-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  /* Mobile view styles */
+  @media screen and (max-width: 600px) {
+    .footer {
+      font-size: 14px;
+      padding: 10px 5px;
+    }
+  
+    .footer span {
+      display: block; /* Stack the content on smaller screens */
+      line-height: 1.5;
+    }
+  
+    .footer-link {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,98 @@
+/* Ensure TypingEffect dynamically typed text is yellow */
+.dynamicText span {
+    color: yellow !important;  /* Force yellow color on dynamically typed text */
+    font-weight: bold;
+}
+
+/* General Styles */
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    top: 4rem;
+    z-index: -1;
+    right: 0;
+    object-fit: cover;
+    height: 100vh;
+    width: 60vh;
+}
+
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: yellow; /* Fallback for static content */
+    font-weight: bold;
+}
+
+.intropara {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    height: 2rem;
+    width: 8rem;
+    padding: 8px;
+    border-radius: 9px;
+    border-style: solid;
+    border-color: beige;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: yellow;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 480px) {
+    #intro {
+        height: calc(50vh - 4rem);
+        margin: 0 auto;
+        padding: 1rem;
+        align-items: center;
+        text-align: center; 
+    }
+    .introContent {
+        font-size: 6vw; 
+        height: 350px;
+    }
+    .hello {
+        font-size: 4.5vw;
+    }
+    .btn {
+        width: 9rem;
+        height: 2.5rem; 
+        font-size: 1rem; 
+    }
+    .btn:hover{
+        background-color: yellow;
+        font-size: 1.5rem;
+    }
+}
