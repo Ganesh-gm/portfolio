@@ -53,8 +53,8 @@
 .btn {
     background-color: white;
     color: black;
-    height: 2rem;
-    width: 8rem;
+    height: 1rem;
+    width: 9rem;
     padding: 8px;
     border-radius: 9px;
     border-style: solid;
@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 480px) {
     #intro {
-        height: calc(50vh - 4rem);
+        height: calc(60vh - 4rem);
         margin: 0 auto;
         padding: 1rem;
         align-items: center;
@@ -93,6 +93,6 @@
     }
     .btn:hover{
         background-color: yellow;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }

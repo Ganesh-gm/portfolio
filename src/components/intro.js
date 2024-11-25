@@ -26,7 +26,7 @@ const Intro = () => {
                     <br />visually appealing and user-friendly websites.
                 </p>
                 <a
-                    href="/Resume_Ganesh.pdf"
+                    href="Resume_Ganesh.pdf"
                     download="Resume_Ganesh.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
