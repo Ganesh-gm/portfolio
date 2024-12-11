@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bf0181cf.css",
-    "main.js": "/portfolio/static/js/main.37b984e6.js",
+    "main.css": "/portfolio/static/css/main.c039c49b.css",
+    "main.js": "/portfolio/static/js/main.940741cd.js",
     "static/media/php.png": "/portfolio/static/media/php.d50fe7fe3c6e5fc97ed1.png",
     "static/media/zoho-Analytics-1024x1024.png": "/portfolio/static/media/zoho-Analytics-1024x1024.b532fa2dd7465602508e.png",
     "static/media/node.png": "/portfolio/static/media/node.e71346fe0fec16ec5f6e.png",
@@ -11,11 +11,11 @@
     "static/media/laravel.png": "/portfolio/static/media/laravel.9deb7b8accaeb576c057.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.dafbcd7fb56fcfce553c.png",
     "index.html": "/portfolio/index.html",
-    "main.bf0181cf.css.map": "/portfolio/static/css/main.bf0181cf.css.map",
-    "main.37b984e6.js.map": "/portfolio/static/js/main.37b984e6.js.map"
+    "main.c039c49b.css.map": "/portfolio/static/css/main.c039c49b.css.map",
+    "main.940741cd.js.map": "/portfolio/static/js/main.940741cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf0181cf.css",
-    "static/js/main.37b984e6.js"
+    "static/css/main.c039c49b.css",
+    "static/js/main.940741cd.js"
   ]
 }
