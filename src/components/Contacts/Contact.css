@@ -2,16 +2,16 @@
     min-height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 95%;
-    margin: 0 auto;
+    margin: 1rem auto;
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding-top:55px;
+    padding-top:3px;
 }
 
 .contactPageTitle {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     text-align: center;
 }
 
@@ -58,7 +58,7 @@
 .contacts {
     display: flex;
     flex-direction: row;
-    padding: 2rem;
+    padding: 1rem;
     text-align: start;
     gap: 1rem;
 }
