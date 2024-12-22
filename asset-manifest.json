@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6b83589c.css",
-    "main.js": "/portfolio/static/js/main.940741cd.js",
+    "main.js": "/portfolio/static/js/main.ce03ecdb.js",
     "static/media/php.png": "/portfolio/static/media/php.d50fe7fe3c6e5fc97ed1.png",
     "static/media/zoho-Analytics-1024x1024.png": "/portfolio/static/media/zoho-Analytics-1024x1024.b532fa2dd7465602508e.png",
     "static/media/node.png": "/portfolio/static/media/node.e71346fe0fec16ec5f6e.png",
@@ -12,10 +12,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.dafbcd7fb56fcfce553c.png",
     "index.html": "/portfolio/index.html",
     "main.6b83589c.css.map": "/portfolio/static/css/main.6b83589c.css.map",
-    "main.940741cd.js.map": "/portfolio/static/js/main.940741cd.js.map"
+    "main.ce03ecdb.js.map": "/portfolio/static/js/main.ce03ecdb.js.map"
   },
   "entrypoints": [
     "static/css/main.6b83589c.css",
-    "static/js/main.940741cd.js"
+    "static/js/main.ce03ecdb.js"
   ]
 }
